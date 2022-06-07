@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <!-- <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script> -->
+    <title>Document</title>
+</head>
+<body>
+    
+<div class="container">
+    <div class="row d-flex justify-content-center m-5">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header bg-primary">
+                    <h1 class="text-center text-white p-2">Marriage Calculator</h1>
+                </div>
+                <div class="card-body shadow">
+                    <div class="requird_alert">
+
+                    </div>
+                    <form id="marriage-form">
+                        <div class="my-3">
+                            <label for="">Your Name</label>
+                            <input name="name" class="form-control" type="text">
+                        </div>
+                        <div class="my-3">
+                            <label for="">Your Age</label>
+                            <input name="age" class="form-control" type="text">
+                        </div>
+                        <div class="my-3">
+                            <label  for="">Your Gender</label><br>
+                            <input value="male" name="Gender" type="radio">
+                            <label for="Male">Male</label>
+                            <input value="female" name="Gender" type="radio">
+                            <label for="female">Female</label>
+                        </div>
+                        <div class="my-3">
+                            <button class="btn btn-primary w-100" type="submit">Show the Result</button>
+                        </div>
+                    </form>
+                    <div class="card-footer">
+                        <div id="Result_msg">
+    
+                        </div>
+    
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="function.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
